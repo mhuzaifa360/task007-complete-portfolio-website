@@ -1,7 +1,77 @@
+
+/*? General design start  */
 @font-face {
     font-family: 'font1';
     src: url(./Assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
-body{
-    font-family: 'font1';
+html{
+    
+    scroll-behavior: smooth;
 }
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'font1';
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    font-size: 1.4rem;
+    color: black;
+    margin-top: 5px;
+    line-height: 40px;
+}
+.section-tittle{
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.section-tittle span{
+    color: aqua;
+    
+}
+button{
+    display: inline-block;
+    padding: 10px 30px;
+    background: transparent;
+    border: 2px solid aqua;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+    transition: 0.3s ease background-color,color;
+}
+button:hover{
+    color: white;
+    background: aqua;
+}
+button a{
+    color: black;
+    
+}
+.nav-logo h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
+}
+.nav-logo span{
+    
+    color: aqua;
+}
+/*? General design end  */
+/*? commint  */
