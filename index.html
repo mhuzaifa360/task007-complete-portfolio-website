@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huzaifa | Portfolio
     </title>
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="./hero.css">
+    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./project.css">
+    <link rel="stylesheet" href="./services.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    <!-- navbar , hero , services , projects , about , contact , footer  -->
+
+    <!--! navbar , hero , services , projects , about , contact , footer  -->
      
      <!--? navbar start -->
      <nav id="navbar">
-        <div class="navbar section">
+        <div class="navbar" >
             <div class="nav-logo">
                 <h1><span>M</span>U<span>H</span>AMMAD  <span>H</span>UZAIFA</h1>
             </div>
@@ -21,7 +29,7 @@
                 <div class="list-small-screen">
 
                 </div>
-                <ul>
+                <ul >
                     <li nav-list-item><a href="#hero">Home</a></li>
                     <li nav-list-item><a href="#services">Services</a></li>
                     <li nav-list-item><a href="#projects">Project</a></li>
@@ -32,12 +40,15 @@
         </div>
      </nav>
      <!--? navbar ends  -->
-     <!--? commit   -->
+
+
+     <!--? commit   -------------------------------------->
 
 
      <!--? hero start -->
      <section id="hero">
         <div class="hero-section container">
+
             <div class="hero-content">
                 <h1>Hello,</h1>
                 <h1>My Name is</h1>
@@ -46,73 +57,85 @@
                     <button  id="hero-section-btn" ><a href="#projects"> PORTFOLIO</a></button>
                 </div>
             </div>
+
+            <div class="hero-iamge">
+                <img src="./Assets/images/huzaifa pic bg-remove.png" alt="" id="huzaifa-pic">
+            </div>
+
         </div>
     </section>
     <!--? hero ends  -->
-    <!--? commit   -->
+
+
+    <!--? commit   ------------------------------------>
     
+
     <!--? services start -->
     <section id="services">
         <div class="services-section container" >
             <div class="services-content">
                 <h1 class="section-tittle">SERV<span>I</span>CES</h1>
-                <p>I can give you services of website designing , website mantaiance and website problem solving . Also i have more experiance of MS Office , MS Word , Ms Excel and Windows installation otherwise i have already gain alot of courses of html , css , bootstrape and javascript </p>
+                
             </div>
+
             <div class="services-cards">
 
                 <!--? card 1 start -->
-                <div class="card1">
+                <div class="card1 card" style="color: white;">
                     <div class="card-content">
                         <div class="card-logo">
-                            <i class="fa-solid fa-gears"></i>
-                            <img src="" alt="">
+                            
+                            <img src="./Assets/icons/web development.png" alt="">
                         </div>
-                        <h2>WEB DESIGNING</h2>
-                        <P>I am an expert in website development with the help of html , css , bootstrape and javaScript .</P>
+                        <h2>Front-End Web Development</h2>
+                        <span>Create responsive, visually appealing websites using HTML, CSS, JavaScript, and Bootstrap.</span>
                     </div>
                 </div>
 
                 <!--? card 2 start -->
-                <div class="card2">
+                <div class="card2 card">
                     <div class="card-content">
                         <div class="card-logo">
-                            <i class="fa-brands fa-windows"></i>
-                            <img src="" alt="">
+                            
+                            <img src="./Assets/icons/redesign.png" alt="">
+                           
                         </div>
-                        <h2>MS Office</h2>
-                        <P>I am an expert in MS Office projects , any kind of data mangement , data entry and data analysis .</P>
+                        <h2>Website Redesign</h2>
+                        <span>Enhance existing websites for improved performance, user experience, and mobile responsiveness.</span>
                     </div>
                 </div>
-
+                
                 <!--? card 3 start -->
-                <div class="card3">
+                <div class="card3 card">
                     <div class="card-content">
                         <div class="card-logo">
-                            <i class="fa-brands fa-html5"></i>
-                            <img src="" alt="">
+                            <img src="./Assets/icons/documents.png" alt="">
+                            
                         </div>
-                        <h2>Windows Installation</h2>
-                        <P>I can handle any version of microsoft windows installation and setting of pc management , also driver installation .</P>
+                        <h2>Content and Document Management</h2>
+                        <span>Professionally design and structure documents or presentations in MS Office for business use.</span>
                     </div>
                 </div>
 
                 <!--? card 4 start -->
-                <div class="card4">
+                <div class="card4 card">
                     <div class="card-content">
                         <div class="card-logo">
-                            <i class="fa-brands fa-css3-alt"></i>
-                            <i class="fa-brands fa-js"></i>
+                            <img src="./Assets/icons/gitHub.png" alt="">
                            
                         </div>
-                        <h2>WEB DESIGNING</h2>
-                        <P>I am an expert in website development with the help of html , css , bootstrape and javaScript .</P>
+                        <h2>GitHub Management</h2>
+                        <span>Set up and organize GitHub repositories, ensuring effective version control and collaboration.</span>
                     </div>
                 </div>
             </div>
         </div>
      </section>
      <!--? services ends  -->
-     <!--? commit   -->
+
+
+     <!--? commit   -------------------------------------->
+
 
      <!--? projects start -->
      <section id="projects">
@@ -164,7 +187,10 @@
         </div>
      </section>
      <!--? projects ends  -->
-     <!--? commit   -->
+
+
+     <!--? commit   ----------------------------->
+
 
      <!--? about  start -->
      <section id="about">
@@ -185,7 +211,10 @@
         </div>
      </section>
      <!--? about  ends  -->
-     <!--? commit   -->
+
+
+     <!--? commit   ---------------------------------->
+
 
      <!--? contact start -->
      <section id="contact">
@@ -226,7 +255,10 @@
         </div>
      </section>
      <!--? contact ends  -->
-     <!--? commit   -->
+
+
+     <!--? commit   -------------------------------->
+
 
      <!--? footer start -->
      <footer id="footer">
@@ -244,7 +276,9 @@
         </div>
      </footer>
      <!--? footer ends  -->
-     <!--? commit   -->
+
+
+     <!--? commit   --------------------------->
 
 
 

@@ -26,8 +26,10 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* background: #000; */
 }
 p{
+    /* color: white; */
     font-size: 1.4rem;
     color: black;
     margin-top: 5px;
@@ -41,14 +43,14 @@ p{
     letter-spacing: 0.2rem;
 }
 .section-tittle span{
-    color: aqua;
+    color: #FF6B01;
     
 }
 button{
     display: inline-block;
     padding: 10px 30px;
     background: transparent;
-    border: 2px solid aqua;
+    border: 2px solid #FF6B01;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -57,21 +59,11 @@ button{
 }
 button:hover{
     color: white;
-    background: aqua;
+    background: #FF6B01;
 }
 button a{
     color: black;
     
-}
-.nav-logo h1{
-    font-size: 2rem;
-    text-transform: uppercase;
-    color: black;
-    font-weight: 400;
-}
-.nav-logo span{
-    
-    color: aqua;
 }
 /*? General design end  */
 /*? commint  */
@@ -79,23 +71,58 @@ button a{
 
 
 /*? navbar design start  */
+.nav-logo{
+    width: 50%;
+}
+.nav-logo h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+}
+.nav-logo span{
+    
+    color: #FF6B01;
+}
+.nav-list{
+    width: 50%;
+    color: white;
+    display: flex;
+
+}
+.nav-list ul{
+    width: 500px;
+    /* background: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-list ul li{
+    color: rgb(255, 255, 255);
+
+}
 #navbar{
     position: fixed;
     z-index: 5;
     left: 0;
     
-    width: 100%;
+    /* width: 100%; */
     height: auto;
 }
-#navbar .navbar{
+.navbar{
+    background: white;
+    color: white;
     min-height: 8vh;
-    background: rgba(30,30,0,0.24);
+    /* background: rgba(30,30,0,0.64); */
     transition: 03s ease background-color;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1300px;
+    /* max-width: 1300px; */
     padding: 0 10px;
 }
 #navbar .list-small-screen{
@@ -124,22 +151,23 @@ button a{
 /*? commint  */
 
 /*? hero section design start  */
+.hero-section{
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./Assets/images/man\ with\ coding\ .jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+#huzaifa-pic{
+    width: 400px;
+
+}
+
 /*? hero section design end  */
-/*? commint  */
-
-/*? about section design start  */
-/*? about section design end  */
-/*? commint  */
-
-/*? project section design start  */
-/*? project section design end  */
-/*? commint  */
-
-/*? contact section design start  */
-/*? contact section design end  */
-/*? commint  */
-
-/*? footer section design start  */
-/*? footer section design end  */
-/*? commint  */
-
+/*? commint  ---------------------*/
