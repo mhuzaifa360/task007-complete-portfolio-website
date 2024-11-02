@@ -2,14 +2,71 @@
 /*? contact section design start  */
 .row1-contact{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    
+    /* background: #979494; */
+    width: 90%;
+
+}
+.cardc{
+    width: 400px;
+    height: 200px;
+    /* background: #000; */
+    /* border: 2px solid  white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border-right: 4px solid #FF6B01;
+    border-left: 4px solid #FF6B01;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 10px rgb(27, 26, 26);
+    transition: transform 0.3s ease;
+}
+.cardc:hover{
+   transform: scale(1.07);
+
+}
+.cardc h3{
+    font-size: 35px;
+    font-weight: 400;
+    color: #FF6B01;
+}
+.cardc p{
+    color: white;
+    font-size: 15px
+}
+.cardc img{
+    width: 80px;
+}
+.cardc .card-content{
+    line-height: 1px;
+
 }
 /*? contact section design end  */
 /*? commint  */
 
 /*? footer section design start  */
+#footer{
+    background: #454545;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer h2{
+}
+.footer h3{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.footer p{
+
+}
 /*? footer section design end  */
 /*? commint  */
 
