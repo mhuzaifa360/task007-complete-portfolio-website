@@ -1,5 +1,11 @@
 
 /*? contact section design start  */
+.row1-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 /*? contact section design end  */
 /*? commint  */
 

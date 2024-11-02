@@ -1,18 +1,22 @@
 
 /*? project section design start  */
 #projects{
-    position: relative;
-    top: 100px;
+    /* position: relative;
+    top: 600px; */
+}
+.projects-section{
+
 }
 .projects-card{
-    width: 80%;
+
+    width: 85%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background: white;
     /* background: rgba(250,250,250,0.5); */
-    padding: 5px;
+    padding: 30px;
     outline: 6px solid #FF6B01;
     border: 4px solid #1F2833;
     border-radius: 10px;
@@ -21,12 +25,15 @@
     width: 700px;
 }
 .row1{
+    /* background: #757272; */
+    /* padding-left: 30px; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     border-bottom: 2px solid #FF6B01;
 }
+
 .row2{
     display: flex;
     justify-content: center;
@@ -48,9 +55,24 @@
     flex-direction: row;
 }
 .cardp h1{
+    color: black;
     font-size: 35px;
     font-family: 'font1';
 
 }
+.project-title{
+    color:  black;
+    font-weight: 500;
+    font-size: 50px;
+ }
+ .cardp p{
+    color: #5f6061;
+ }
+ .project-btn a{
+    color: #FF6B01;
+ }
+ .project-btn a:hover{
+    color: white;
+ }
 /*? project section design end  */
 /*? commint  */

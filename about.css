@@ -1,4 +1,40 @@
 
 /*? about section design start  */
+.about{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.about p{
+    color: white;
+}
+.about-img{
+    /* background: #000; */
+    width: 40%;
+    height: auto;
+ 
+}
+.about-img img{
+    margin-top: 70px;
+    width: 450px;
+    border-top: 4px solid #FF6B01;
+    border-bottom: 4px solid #FF6B01;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 10px rgb(27, 26, 26);
+}
+.about-content{
+   
+    width: 40%;
+    height: 500px;
+}
+.about-content h2{
+    font-weight: 400;
+    letter-spacing: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FF6B01;
+}
 /*? about section design end  */
 /*? commint  ---------------------*/
