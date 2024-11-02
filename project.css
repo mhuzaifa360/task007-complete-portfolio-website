@@ -1,5 +1,9 @@
 
 /*? project section design start  */
+#projects{
+    position: relative;
+    top: 100px;
+}
 .projects-card{
     width: 80%;
     display: flex;
@@ -42,6 +46,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+}
+.cardp h1{
+    font-size: 35px;
+    font-family: 'font1';
+
 }
 /*? project section design end  */
 /*? commint  */

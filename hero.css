@@ -56,6 +56,7 @@ button{
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     margin-top: 30px;
+    color: white;
     transition: 0.3s ease background-color,color;
 }
 button:hover{
@@ -63,7 +64,7 @@ button:hover{
     background: #FF6B01;
 }
 button a{
-    color: black;
+    color: white;
     
 }
 /*? General design end  */
@@ -73,6 +74,8 @@ button a{
 
 /*? navbar design start  */
 .nav-logo{
+    text-align: center;
+    /* background: #000; */
     width: 50%;
 }
 .nav-logo h1{
@@ -83,13 +86,13 @@ button a{
 }
 .nav-logo span{
     
-    color: #FF6B01;
+    color: #FF6B01; 
 }
 .nav-list{
     width: 50%;
-    color: white;
+    /* color: white; */
     display: flex;
-
+    
 }
 .nav-list ul{
     width: 500px;
@@ -100,17 +103,22 @@ button a{
     list-style: none;
     text-decoration: none;
     font-size: 20px;
+    /* color: white; */
 }
-.nav-list ul li{
-    color: rgb(255, 255, 255);
+.nav-list ul li a{
+    color: white;
+}
 
+.nav-list ul li a:hover{
+    color:  #FF6B01;
 }
 #navbar{
     position: fixed;
     z-index: 5;
     left: 0;
+    background: #1F2833;
     
-    /* width: 100%; */
+    width: 100%;
     height: auto;
 }
 .navbar{
@@ -120,11 +128,11 @@ button a{
     /* background: rgba(30,30,0,0.64); */
     transition: 03s ease background-color;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     /* max-width: 1300px; */
-    padding: 0 10px;
+    /* padding: 0 10px; */
 }
 #navbar .list-small-screen{
     border: 3px solid white;
@@ -154,7 +162,7 @@ button a{
 /*? hero section design start  */
 .hero-section{
     color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./Assets/images/man\ with\ coding\ .jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./Assets/images/girl\ with\ tablet.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,11 +172,46 @@ button a{
     align-items: center;
     flex-direction: row;
 }
-
-#huzaifa-pic{
-    width: 400px;
+.hero-content h1{
+    font-size: 50px;
+    font-family: 'font1';
+    font-weight: 500;
+    line-height: 30px;
 
 }
+.hero-content span{
+    color: #FF6B01;
+}
+#huzaifa-pic{
+    width: 400px;
+    border-radius: 50%;
+    /* border: 3px solid white; */
+    outline: 7px solid #FF6B01;
+    box-shadow: 1px 1px 20px 15px #FF6B01;
+    animation: borderColorChange 3s infinite linear;
+    background: #1F2833;
+   
+  
+}
+@keyframes borderColorChange {
+    0% {
+        box-shadow: 1px 1px 20px 15px #FF6B01;
+    }
+    33% {
+        box-shadow: 1px 1px 20px 15px white;
+        
+    }
+    66% {
+        box-shadow: 1px 1px 20px 15px #1F2833;
+      
+    }
+    100% {
+        box-shadow: 1px 1px 20px 15px #FF6B01;
+     
+    }
+  }
+
+
 
 /*? hero section design end  */
 /*? commint  ---------------------*/
