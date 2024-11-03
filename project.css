@@ -1,5 +1,3 @@
-@media (min-width: 1200px) {
-    /* Styles for extra large devices */
 
 /*? project section design start  */
 #projects{
@@ -19,8 +17,11 @@
     background: white;
     /* background: rgba(250,250,250,0.5); */
     padding: 30px;
-    outline: 6px solid #FF6B01;
-    border: 4px solid #1F2833;
+    border-top: 5px solid #FF6B01;
+    border-bottom: 5px solid #FF6B01;
+    border-right: 1px solid #FF6B01;
+    border-left: 1px solid #FF6B01;
+    box-shadow: 1px 1px 10px 6px #0e0e0e;
     border-radius: 10px;
 }
 .cardp-img img{
@@ -33,7 +34,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    border-bottom: 2px solid #FF6B01;
+    border-bottom: 1px solid #1F2833;
 }
 
 .row2{
@@ -41,14 +42,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    border-bottom: 2px solid #FF6B01;
+    border-bottom: 1px solid #1F2833;
 }
 .row3{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    border-bottom: 2px solid #FF6B01;
+    border-bottom: 1px solid #1F2833;
 }
 .row4{
     display: flex;
@@ -56,9 +57,14 @@
     align-items: center;
     flex-direction: row;
 }
+.cardp{
+    /* background: #000; */
+    height: 500px;
+}
 .cardp h1{
-    color: black;
-    font-size: 32px;
+    color: #FF6B01;
+    font-size: 39px;
+    font-weight: 600;
     font-family: 'font1';
 
 }
@@ -71,12 +77,466 @@
     color: #5f6061;
     font-size: 18px;
  }
+
+ .project-btn{
+    /* background: white; */
+    width: 200px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+ }
+ .project-btn:hover{
+    border: 2px solid #1F2833;
+ }
  .project-btn a{
     color: #FF6B01;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ }
+ .project-btn a:hover{
+    color: #1F2833;
+ }
+
+ .git-btn{
+    width: 200px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+     background:#FF6B01;
+     border: 2px solid #1F2833;
+    }
+    .git-btn a{
+        font-size: 20px;
+        font-weight: 600;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    color: #1F2833;
+
+}
+.git-btn:hover{
+    background: #1F2833;
+}
+.git-btn a:hover{
+    color: #FF6B01;
+ }
+ 
+/*? project section design end  */
+/*? commint  */
+@media (min-width: 1541px){
+    /*? project section design start  */
+#projects{
+    /* position: relative;
+    top: 600px; */
+}
+.projects-section{
+
+}
+.projects-card{
+
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    /* background: rgba(250,250,250,0.5); */
+    padding: 30px;
+    border-top: 5px solid #FF6B01;
+    border-bottom: 5px solid #FF6B01;
+    border-right: 1px solid #FF6B01;
+    border-left: 1px solid #FF6B01;
+    box-shadow: 1px 1px 10px 6px #0e0e0e;
+    border-radius: 10px;
+}
+.cardp-img img{
+    width: 700px;
+}
+.row1{
+    /* background: #757272; */
+    /* padding-left: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #1F2833;
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #1F2833;
+}
+.row3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #1F2833;
+}
+.row4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.cardp{
+    /* background: #000; */
+    height: 500px;
+}
+.cardp h1{
+    color: #FF6B01;
+    font-size: 39px;
+    font-weight: 600;
+    font-family: 'font1';
+
+}
+.project-title{
+    color:  black;
+    font-weight: 500;
+    font-size: 50px;
+ }
+ .cardp p{
+    color: #5f6061;
+    font-size: 18px;
+ }
+
+ .project-btn{
+    /* background: white; */
+    width: 200px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+ }
+ .project-btn:hover{
+    border: 2px solid #1F2833;
+ }
+ .project-btn a{
+    color: #FF6B01;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ }
+ .project-btn a:hover{
+    color: #1F2833;
+ }
+
+ .git-btn{
+    width: 200px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+     background:#FF6B01;
+     border: 2px solid #1F2833;
+    }
+    .git-btn a{
+        font-size: 20px;
+        font-weight: 600;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    color: #1F2833;
+
+}
+.git-btn:hover{
+    background: #1F2833;
+}
+.git-btn a:hover{
+    color: #FF6B01;
+ }
+}
+
+@media (max-width: 1200px) {
+    /* Styles for extra large devices */
+
+    
+/*? project section design start  */
+#projects{
+    /* position: relative;
+    top: 600px; */
+}
+.projects-section{
+
+}
+.projects-card{
+
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    /* background: rgba(250,250,250,0.5); */
+    padding: 30px;
+    border-top: 5px solid #FF6B01;
+    border-bottom: 5px solid #FF6B01;
+    border-right: 1px solid #FF6B01;
+    border-left: 1px solid #FF6B01;
+    box-shadow: 1px 1px 10px 6px #0e0e0e;
+    border-radius: 10px;
+}
+.cardp-img img{
+    width: 700px;
+}
+.row1{
+    /* background: #757272; */
+    /* padding-left: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #1F2833;
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #1F2833;
+}
+.row3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #1F2833;
+}
+.row4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.cardp{
+    /* background: #000; */
+    height: 500px;
+}
+.cardp h1{
+    color: #FF6B01;
+    font-size: 39px;
+    font-weight: 600;
+    font-family: 'font1';
+
+}
+.project-title{
+    color:  black;
+    font-weight: 500;
+    font-size: 50px;
+ }
+ .cardp p{
+    color: #5f6061;
+    font-size: 18px;
+ }
+
+ .project-btn{
+    background: #1F2833;
+    width: 200px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+ }
+ .project-btn:hover{
+    border: 2px solid #1F2833;
+ }
+ .project-btn a{
+    color: #FF6B01;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ }
+ .project-btn a:hover{
+    color: #1F2833;
+ }
+
+ .git-btn{
+    width: 200px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+     background:#FF6B01;
+     border: 2px solid #1F2833;
+    }
+    .git-btn a{
+        font-size: 20px;
+        font-weight: 600;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    color: #1F2833;
+
+}
+.git-btn:hover{
+    background: #1F2833;
+}
+.git-btn a:hover{
+    color: #FF6B01;
+ }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 992px) {
+
+    
+/*? project section design start  */
+#projects{
+    /* position: relative;
+    top: 600px; */
+}
+.projects-section{
+
+}
+.projects-card{
+
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    /* background: rgba(250,250,250,0.5); */
+    padding: 30px;
+    border-top: 5px solid #FF6B01;
+    border-bottom: 5px solid #FF6B01;
+    border-right: 1px solid #FF6B01;
+    border-left: 1px solid #FF6B01;
+    box-shadow: 1px 1px 10px 6px #0e0e0e;
+    border-radius: 10px;
+}
+.cardp-img img{
+    width: 500px;
+}
+.row1{
+    /* background: #757272; */
+    /* padding-left: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #1F2833;
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #1F2833;
+}
+.row3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #1F2833;
+}
+.row4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.cardp{
+    /* background: #000; */
+    height: 400px;
+}
+.cardp h1{
+    color: #FF6B01;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'font1';
+
+}
+.project-title{
+    color:  black;
+    font-weight: 500;
+    font-size: 50px;
+ }
+ .cardp p{
+    color: #5f6061;
+    font-size: 15px;
+ }
+
+ .project-btn{
+    /* background: #1F2833; */
+    background: white;
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    padding: 0;
+ }
+ .project-btn:hover{
+    border: 2px solid #1F2833;
+ }
+ .project-btn a{
+    color: #1F2833;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
  }
  .project-btn a:hover{
     color: white;
  }
+
+ .git-btn{
+    
+    width: 150px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+     background:#FF6B01;
+     border: 2px solid #1F2833;
+    }
+    .git-btn a{
+        font-size: 16px;
+        font-weight: 600;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    color: white;
+
+}
+.git-btn:hover{
+    background: white;
+    border: 2px solid #FF6B01;
+}
+.git-btn a:hover{
+    color: #1F2833;
+ }
+ 
 /*? project section design end  */
 /*? commint  */
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) {
+    
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width: 600px) {
+    
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 400px) {
+    
 }
