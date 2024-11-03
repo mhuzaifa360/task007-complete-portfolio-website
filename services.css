@@ -1,3 +1,5 @@
+@media (min-width: 1200px) {
+    /* Styles for extra large devices */
 
 /*? services section design start  */
 .services-section{
@@ -22,7 +24,7 @@
     border: 2px solid #FF6B01;
     /* background: #000; */
     color: white;
-    width: 300px;
+    width: 250px;
     height: 350px;
     border-radius: 20px;
     display: flex;
@@ -44,7 +46,7 @@
     /* line-height: 20px; */
 }
 .card-content img{
-width: 80px;
+width: 95px;
 
 }
 .card-logo{
@@ -69,3 +71,4 @@ width: 80px;
 
 /*? sevices section design end  */
 /*? commint  ---------------------*/
+}

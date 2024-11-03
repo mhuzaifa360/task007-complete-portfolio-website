@@ -1,4 +1,9 @@
 
+@media (min-width: 1200px) {
+    /* Styles for extra large devices */
+
+
+
 /*? General design start  */
 @font-face {
     font-family: 'font1';
@@ -217,3 +222,4 @@ button a{
 
 /*? hero section design end  */
 /*? commint  ---------------------*/
+}

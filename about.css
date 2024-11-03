@@ -1,3 +1,5 @@
+@media (min-width: 1200px) {
+    /* Styles for extra large devices */
 
 /*? about section design start  */
 .about{
@@ -9,6 +11,8 @@
 }
 .about p{
     color: white;
+    font-size: 20px;
+
 }
 .about-img{
     /* background: #000; */
@@ -25,16 +29,17 @@
     box-shadow: 1px 1px 10px 10px rgb(27, 26, 26);
 }
 .about-content{
-   
+   /* background: #000; */
     width: 40%;
     height: 500px;
 }
 .about-content h2{
     font-weight: 400;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
     font-size: 20px;
     text-transform: uppercase;
     color: #FF6B01;
 }
 /*? about section design end  */
 /*? commint  ---------------------*/
+}

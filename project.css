@@ -1,3 +1,5 @@
+@media (min-width: 1200px) {
+    /* Styles for extra large devices */
 
 /*? project section design start  */
 #projects{
@@ -56,7 +58,7 @@
 }
 .cardp h1{
     color: black;
-    font-size: 35px;
+    font-size: 32px;
     font-family: 'font1';
 
 }
@@ -67,6 +69,7 @@
  }
  .cardp p{
     color: #5f6061;
+    font-size: 18px;
  }
  .project-btn a{
     color: #FF6B01;
@@ -76,3 +79,4 @@
  }
 /*? project section design end  */
 /*? commint  */
+}

@@ -1,15 +1,19 @@
+@media (min-width: 1200px) {
+    /* Styles for extra large devices */
 
 /*? contact section design start  */
 .row1-contact{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     /* background: #979494; */
-    width: 90%;
+
+    width: 96%;
 
 }
 .cardc{
-    width: 400px;
+    width: 360px;
     height: 200px;
     /* background: #000; */
     /* border: 2px solid  white; */
@@ -37,36 +41,63 @@
     font-size: 15px
 }
 .cardc img{
-    width: 80px;
+    width: 60px;
 }
 .cardc .card-content{
     line-height: 1px;
 
 }
 /*? contact section design end  */
-/*? commint  */
+/*? commit  */
 
 /*? footer section design start  */
 #footer{
-    background: #454545;
+    border-top: 3px solid #FF6B01;
+    /* padding-right: 20px; */
+    /* background: #303030; */
+    background: #181818;
     height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+.footer{
+    height: 100%;
+    line-height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: #ea9f9f; */
+}
 .footer h2{
 }
 .footer h3{
-    text-align: center;
     color: aliceblue;
     font-size: 20px;
     font-weight: 400;
 
 }
 .footer p{
-
+    color:  white;
+}
+.footer-icons{
+   color: #FF6B01;
+    width: 450px;
+    height: 80px;
+    /* background: #797777; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-icons img{
+    width: 70px ;
+}
+.footer-icons img:hover{
+    box-shadow: 1px 1px 10px 3px #FF6B01;
 }
 /*? footer section design end  */
-/*? commint  */
+/*? commit  */
 
+}
