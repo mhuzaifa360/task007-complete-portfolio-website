@@ -99,9 +99,7 @@
 /*? footer section design end  */
 /*? commit  */
 
-@media (max-width: 1200px) {
-    /* Styles for extra large devices */
-
+@media (min-width: 1541px){
     
 /*? contact section design start  */
 .row1-contact{
@@ -110,13 +108,12 @@
     align-items: center;
     flex-wrap: wrap;
     /* background: #979494; */
-
     width: 96%;
-
+    height: auto;
 }
 .cardc{
-    width: 360px;
-    height: 200px;
+    width: 460px;
+    height: 250px;
     /* background: #000; */
     /* border: 2px solid  white; */
     display: flex;
@@ -131,22 +128,21 @@
 }
 .cardc:hover{
    transform: scale(1.07);
-
 }
 .cardc h3{
-    font-size: 35px;
+    font-size: 60px;
     font-weight: 400;
     color: #FF6B01;
 }
 .cardc p{
     color: white;
-    font-size: 15px
+    font-size: 20px
 }
 .cardc img{
-    width: 60px;
+    width: 90px;
 }
 .cardc .card-content{
-    line-height: 1px;
+    /* line-height: 1px; */
 
 }
 /*? contact section design end  */
@@ -200,8 +196,317 @@
 .footer-icons img:hover{
     box-shadow: 1px 1px 10px 3px #FF6B01;
 }
+}
+@media (max-width: 1540px){
+    
+/*? contact section design start  */
+.row1-contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background: #979494; */
+    width: 96%;
+    height: auto;
+}
+.cardc{
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+    /* background: #000; */
+    /* border: 2px solid  white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border-right: 4px solid #FF6B01;
+    border-left: 4px solid #FF6B01;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 10px rgb(27, 26, 26);
+    transition: transform 0.3s ease;
+}
+.cardc:hover{
+   transform: scale(1.07);
+}
+.cardc h3{
+    font-size: 45px;
+    font-weight: 400;
+    color: #FF6B01;
+}
+.cardc p{
+    color: white;
+    font-size: 17px
+}
+.cardc img{
+    width: 80px;
+}
+.cardc .card-content{
+    /* line-height: 1px; */
 
 }
+/*? contact section design end  */
+/*? commit  */
+
+/*? footer section design start  */
+#footer{
+    border-top: 3px solid #FF6B01;
+    /* padding-right: 20px; */
+    /* background: #303030; */
+    background: #181818;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer{
+    height: 100%;
+    /* line-height: 6px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: #ea9f9f; */
+}
+.footer h2{
+    font-size: 30px;
+}
+.footer h3{
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+.footer p{
+    color:  white;
+    font-size: 17px;
+}
+.footer-icons{
+    /* color: orange; */
+   /* color: #FF6B01; */
+    width: 360px;
+    height: 80px;
+    /* background: #797777; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-icons img{
+    width: 56px ;
+}
+.footer-icons img:hover{
+    box-shadow: 1px 1px 10px 3px #FF6B01;
+}
+}
+@media (max-width: 1200px){
+    
+/*? contact section design start  */
+.row1-contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background: #979494; */
+    width: 96%;
+    height: auto;
+}
+.cardc{
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+    /* background: #000; */
+    /* border: 2px solid  white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border-right: 4px solid #FF6B01;
+    border-left: 4px solid #FF6B01;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 10px rgb(27, 26, 26);
+    transition: transform 0.3s ease;
+}
+.cardc:hover{
+   transform: scale(1.07);
+}
+.cardc h3{
+    font-size: 45px;
+    font-weight: 400;
+    color: #FF6B01;
+}
+.cardc p{
+    color: white;
+    font-size: 17px
+}
+.cardc img{
+    width: 80px;
+}
+.cardc .card-content{
+    /* line-height: 1px; */
+
+}
+/*? contact section design end  */
+/*? commit  */
+
+/*? footer section design start  */
+#footer{
+    border-top: 3px solid #FF6B01;
+    /* padding-right: 20px; */
+    /* background: #303030; */
+    background: #181818;
+    height: 27vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer{
+    height: 100%;
+    /* line-height: 6px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: #ea9f9f; */
+}
+.footer h2{
+    font-size: 28px;
+}
+.footer h3{
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+.footer p{
+    color:  white;
+    font-size: 15px;
+}
+.footer-icons{
+    /* color: orange; */
+   /* color: #FF6B01; */
+    width: 330px;
+    height: 70px;
+    /* background: #797777; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-icons img{
+    width: 52px ;
+}
+.footer-icons img:hover{
+    box-shadow: 1px 1px 10px 3px #FF6B01;
+}
+}
+@media (max-width: 992px){
+    
+/*? contact section design start  */
+.contact{
+    /* background: #000; */
+    height: 120vh;
+}
+.row1-contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background: #979494; */
+    width: 96%;
+    height: auto;
+}
+.cardc{
+    margin: 20px;
+    width: 400px;
+    height: 200px;
+    /* background: #000; */
+    /* border: 2px solid  white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border-right: 4px solid #FF6B01;
+    border-left: 4px solid #FF6B01;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 10px rgb(27, 26, 26);
+    transition: transform 0.3s ease;
+}
+.cardc:hover{
+   transform: scale(1.07);
+}
+.cardc h3{
+    font-size: 45px;
+    font-weight: 400;
+    color: #FF6B01;
+}
+.cardc p{
+    color: white;
+    font-size: 17px
+}
+.cardc img{
+    width: 80px;
+}
+.cardc .card-content{
+    /* line-height: 1px; */
+
+}
+/*? contact section design end  */
+/*? commit  */
+
+/*? footer section design start  */
+#footer{
+    border-top: 3px solid #FF6B01;
+    /* padding-right: 20px; */
+    /* background: #303030; */
+    background: #181818;
+    height: 27vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer{
+    height: 100%;
+    /* line-height: 6px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: #ea9f9f; */
+}
+.footer h2{
+    font-size: 28px;
+}
+.footer h3{
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+.footer p{
+    color:  white;
+    font-size: 15px;
+}
+.footer-icons{
+    /* color: orange; */
+   /* color: #FF6B01; */
+    width: 330px;
+    height: 70px;
+    /* background: #797777; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-icons img{
+    width: 52px ;
+}
+.footer-icons img:hover{
+    box-shadow: 1px 1px 10px 3px #FF6B01;
+}
+}
+
+
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media (max-width: 768px) {
     

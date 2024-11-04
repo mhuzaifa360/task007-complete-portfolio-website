@@ -343,61 +343,18 @@
 
 
 }
-
-
 /*! ------------- 1540px and down  ---------------------*/
 @media (max-width: 1540px) {
     /* Styles for extra large devices */
     
-
-/*? navbar design start  */
-.nav-logo{
-    text-align: center;
-    background: #000;
-    width: 50%;
-}
-.nav-logo h1{
-    font-size: 2rem;
-    text-transform: uppercase;
-    color: white;
-    font-weight: 400;
-}
-.nav-logo span{
-    
-    color: #FF6B01; 
-}
-.nav-list{
-    width: 50%;
-    /* color: white; */
-    display: flex;
-    
-}
-.nav-list ul{
-    width: 500px;
-    /* background: white; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    text-decoration: none;
-    font-size: 20px;
-    /* color: white; */
-}
-.nav-list ul li a{
-    color: white;
-}
-
-.nav-list ul li a:hover{
-    color:  #FF6B01;
-}
 #navbar{
     position: fixed;
     z-index: 5;
     left: 0;
     background: #1F2833;
-    
+    /* background: #000; */
     width: 100%;
-    height: auto;
+    height: 15vh;
 }
 .navbar{
     background: white;
@@ -412,30 +369,48 @@
     /* max-width: 1300px; */
     /* padding: 0 10px; */
 }
-#navbar .list-small-screen{
-    border: 3px solid white;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    display: inline-block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 4;
-    cursor: pointer;
-    transform: scale(0.8);
-}
-#navbar .list-small-screen::after{
-    content: "";
-    border: 3px solid white;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    animation: list-small-screen 1s ease infinite;
-}
 
-/*? navbar design end  */
-/*? commint  */
+/*? navbar design start  */
+.nav-logo{
+    /* background: #9b6f6f; */
+    text-align: center;
+    /* background: #000; */
+    width: 50%;
+}
+.nav-logo h1{
+    font-size: 37px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+}
+.nav-logo span{
+    color: #FF6B01; 
+}
+.nav-list{
+    width: 65%;
+    /* color: white; */
+    /* background: #000; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-list ul{
+    width: 100%;
+    height: 70px;
+    /* background: black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    font-size: 28px;
+    /* color: white; */
+}
+.nav-list ul li a{
+    color: white;
+}
+.nav-list ul li a:hover{
+    color:  #FF6B01;
+}
 
 /*? hero section design start  */
 .hero-section{
@@ -450,59 +425,197 @@
     align-items: center;
     flex-direction: row;
 }
+.hero-content{
+    /* background: #000; */
+    width: 560px;
+    height: 400px;
+}
 .hero-content h1{
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'font1';
     font-weight: 500;
-    line-height: 30px;
+    line-height: 40px;
 
 }
 .hero-content span{
     color: #FF6B01;
 }
+.hero-image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #000; */
+    width: 450px;
+    height: 450px;
+}
 #huzaifa-pic{
-    width: 400px;
+    width: 350px;
     border-radius: 50%;
     /* border: 3px solid white; */
     outline: 7px solid #FF6B01;
     box-shadow: 1px 1px 20px 15px #FF6B01;
     animation: borderColorChange 3s infinite linear;
+    background: #1F2833; 
+}
+}
+/*! ------------- 1200px and down  ---------------------*/
+@media (max-width: 1200px) {
+    /* Styles for extra large devices */
+    
+#navbar{
+    position: fixed;
+    z-index: 5;
+    left: 0;
     background: #1F2833;
-   
-  
+    /* background: #000; */
+    width: 100%;
+    height: 14vh;
+}
+.navbar{
+    background: white;
+    color: white;
+    min-height: 8vh;
+    /* background: rgba(30,30,0,0.64); */
+    transition: 03s ease background-color;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    /* max-width: 1300px; */
+    /* padding: 0 10px; */
 }
 
-
-}
-
-/*! ------------- 992px and up  ---------------------*/
-/* Large devices (laptops/desktops, 992px and up) */
-@media (max-width: 992px) {
-    button{
-        display: inline-block;
-        /* padding: 10px 30px; */
-        background: transparent;
-        border: 2px solid #FF6B01;
-        font-size: 1.7rem;
-        text-transform: uppercase;
-        letter-spacing: 0.1rem;
-        margin-top: 30px;
-        color: black;
-        transition: 0.3s ease background-color,color;
-    }
-    button:hover{
-        color: white;
-        background: #FF6B01;
-    }
-    button a{
-        color: white;
-        
-    }
 /*? navbar design start  */
 .nav-logo{
+    /* background: #9b6f6f; */
     text-align: center;
     /* background: #000; */
-    width: 40%;
+    width: 50%;
+}
+.nav-logo h1{
+    font-size: 34px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+}
+.nav-logo span{
+    color: #FF6B01; 
+}
+.nav-list{
+    width: 65%;
+    /* color: white; */
+    /* background: #000; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-list ul{
+    width: 100%;
+    height: 70px;
+    /* background: black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    /* color: white; */
+}
+.nav-list ul li a{
+    color: white;
+}
+.nav-list ul li a:hover{
+    color:  #FF6B01;
+}
+
+/*? hero section design start  */
+.hero-section{
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./Assets/images/girl\ with\ tablet.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.hero-content{
+    /* background: #000; */
+    width: 480px;
+    height: 400px;
+}
+.hero-content h1{
+    font-size: 38px;
+    font-family: 'font1';
+    font-weight: 500;
+    line-height: 40px;
+
+}
+.hero-content span{
+    color: #FF6B01;
+}
+.hero-content button{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content button a{
+    font-size: 25px;
+}
+.hero-image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #000; */
+    width: 450px;
+    height: 450px;
+}
+#huzaifa-pic{
+    width: 320px;
+    border-radius: 50%;
+    /* border: 3px solid white; */
+    outline: 7px solid #FF6B01;
+    box-shadow: 1px 1px 20px 15px #FF6B01;
+    animation: borderColorChange 3s infinite linear;
+    background: #1F2833; 
+}
+}
+/*! ------------- 992px and down  ---------------------*/
+@media (max-width: 992px) {
+    /* Styles for extra large devices */
+    
+#navbar{
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    background: #1F2833;
+    /* background: #000; */
+    width: 100%;
+    height: 10vh;
+}
+.navbar{
+    background: white;
+    color: white;
+    min-height: 8vh;
+    /* background: rgba(30,30,0,0.64); */
+    transition: 03s ease background-color;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    /* max-width: 1300px; */
+    /* padding: 0 10px; */
+}
+
+/*? navbar design start  */
+.nav-logo{
+    /* background: #9b6f6f; */
+    text-align: center;
+    /* background: #000; */
+    width: 50%;
 }
 .nav-logo h1{
     font-size: 30px;
@@ -511,21 +624,24 @@
     font-weight: 400;
 }
 .nav-logo span{
-    
     color: #FF6B01; 
 }
 .nav-list{
-    width: 50%;
+    width: 65%;
     /* color: white; */
-    display: flex;
+    /* background: #000; */
+    display: none;
+    justify-content: space-evenly;
     
 }
 .nav-list ul{
-    width: 500px;
-    /* background: white; */
+    width: 100%;
+    height: 70px;
+    /* background: black; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    /* flex-direction: column; */
     list-style: none;
     text-decoration: none;
     font-size: 20px;
@@ -534,36 +650,9 @@
 .nav-list ul li a{
     color: white;
 }
-
 .nav-list ul li a:hover{
     color:  #FF6B01;
 }
-#navbar{
-    position: fixed;
-    z-index: 5;
-    left: 0;
-    background: #1F2833;
-    
-    width: 100%;
-    height: auto;
-}
-.navbar{
-    background: white;
-    color: white;
-    min-height: 8vh;
-    /* background: rgba(30,30,0,0.64); */
-    transition: 03s ease background-color;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    /* max-width: 1300px; */
-    /* padding: 0 10px; */
-}
-
-
-/*? navbar design end  */
-/*? commint  */
 
 /*? hero section design start  */
 .hero-section{
@@ -574,34 +663,60 @@
     background-size: cover;
     /* background-attachment: fixed; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
+.hero-content{
+    padding-left: 30px;
+    margin-top: 120px;
+    /* background: #000; */
+    width: 550px;
+    height: 380px;
+}
 .hero-content h1{
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'font1';
     font-weight: 500;
-    line-height: 30px;
+    line-height: 40px;
 
 }
 .hero-content span{
     color: #FF6B01;
 }
+.hero-content button{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content button a{
+    font-size: 25px;
+}
+.hero-image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #000; */
+    width: 480px;
+    height: 480px;
+}
 #huzaifa-pic{
-    width: 300px;
+    width: 380px;
     border-radius: 50%;
     /* border: 3px solid white; */
     outline: 7px solid #FF6B01;
     box-shadow: 1px 1px 20px 15px #FF6B01;
     animation: borderColorChange 3s infinite linear;
-    background: #1F2833;
-   
-  
+    background: #1F2833; 
 }
+}
+/** in max-992 nav list is disabled  */
 
-}
+/** 992px done  */
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (max-width: 768px) {
