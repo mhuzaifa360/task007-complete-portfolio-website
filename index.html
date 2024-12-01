@@ -3,30 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Huzaifa | Portfolio</title>
+    <title>Huzaifa | Portfolio | Orange</title>
 
     <link rel="stylesheet" href="./hero.css" />
     <link rel="stylesheet" href="./about.css" />
     <link rel="stylesheet" href="./contact.css" />
     <link rel="stylesheet" href="./project.css" />
     <link rel="stylesheet" href="./services.css" />
-
-   
   </head>
   <body>
     <!--! navbar , hero , services , projects , about , contact , footer  -->
 
     <!--? navbar start -->
 
-    <div class="navbar" id="navbar">
+    <div class="navbar container" id="navbar">
       <div class="nav-logo">
-        <h1><span>M</span>UHAMMAD <span>H</span>UZAIFA</h1>
+        <h1 class="section-tittle">
+          <span>M</span>Y <span>P</span>ORTFOLIO
+        </h1>
       </div>
       <div class="nav-list">
         <!-- <div class="list-small-screen">
 
                 </div> -->
-        <ul>
+        <ul class="container-x">
           <li nav-list-item><a href="#hero">Home</a></li>
           <li nav-list-item><a href="#services">Services</a></li>
           <li nav-list-item><a href="#projects">Project</a></li>
@@ -43,13 +43,15 @@
     <!--? hero start -->
     <section id="hero">
       <div class="hero-section container">
-        <div class="hero-content">
-          <h1>Hello,</h1>
-          <h1>My Name is</h1>
+        <div class="hero-content container-y">
+          <h1>Hello, Its Me</h1>
           <h1><span>M</span>UHAMMAD <span>HUZAIFA</span></h1>
+          <h1>Front-End Developer</h1>
           <div class="hero-btn">
             <button id="hero-section-btn">
-              <a href="#projects"> PORTFOLIO</a>
+              <a href="./Assets/Huzaifa Resume docs.pdf" target="_blank"
+                >Open CV</a
+              >
             </button>
           </div>
         </div>
@@ -58,7 +60,7 @@
           <img
             src="./Assets/images/huzaifa pic bg-remove1.png"
             alt=""
-            id="huzaifa-pic"
+            class="huzaifa-pic"
           />
         </div>
       </div>
@@ -69,66 +71,58 @@
 
     <!--? services start -->
     <section id="services">
-      <div class="services-section container">
+      <div class="services-section container-y container">
         <div class="services-content">
           <h1 class="section-tittle">SERV<span>I</span>CES</h1>
         </div>
 
-        <div class="services-cards">
+        <div class="services-cards container-x container-wrap">
           <!--? card 1 start -->
-          <div class="card1 card" style="color: white">
-            <div class="card-content">
-              <div class="card-logo">
-                <img src="./Assets/icons/web development.png" alt="" />
-              </div>
-              <h2>Front-End Web Development</h2>
-              <span
-                >Create responsive, visually appealing websites using HTML, CSS,
-                JavaScript, and Bootstrap.</span
-              >
-            </div>
+          <div class="card1 card container-y">
+            <img
+              src="./Assets/icons/web development.png"
+              alt=""
+              class="icons-img"
+            />
+            <h2>Front-End Web Development</h2>
+            <span
+              >Create responsive, visually appealing websites using HTML, CSS,
+              JavaScript, and Bootstrap.</span
+            >
           </div>
 
           <!--? card 2 start -->
-          <div class="card2 card">
-            <div class="card-content">
-              <div class="card-logo">
-                <img src="./Assets/icons/redesign.png" alt="" />
-              </div>
-              <h2>Website Redesign</h2>
-              <span
-                >Enhance existing websites for improved performance, user
-                experience, and mobile responsiveness.</span
-              >
-            </div>
+          <div class="card2 card container-y">
+            <img src="./Assets/icons/redesign.png" alt="" class="icons-img" />
+            <h2>Website Redesign</h2>
+            <span
+              >Enhance existing websites for improved performance, user
+              experience, and mobile responsiveness.</span
+            >
           </div>
 
           <!--? card 3 start -->
-          <div class="card3 card">
-            <div class="card-content">
-              <div class="card-logo">
-                <img src="./Assets/icons/documents.png" alt="" />
-              </div>
-              <h2>Content and Document Management</h2>
-              <span
-                >Professionally design and structure documents or presentations
-                in MS Office for business use.</span
-              >
-            </div>
+          <div class="card3 card container-y">
+            <img src="./Assets/icons/documents.png" class="icons-img" alt="" />
+            <h2>Content and Document Management</h2>
+            <span
+              >Professionally design and structure documents or presentations in
+              MS Office for business use.</span
+            >
           </div>
 
           <!--? card 4 start -->
-          <div class="card4 card">
-            <div class="card-content">
-              <div class="card-logo">
-                <img src="./Assets/icons/icons8-github-256.png" alt="" />
-              </div>
-              <h2>GitHub Management</h2>
-              <span
-                >Set up and organize GitHub repositories, ensuring effective
-                version control and collaboration.</span
-              >
-            </div>
+          <div class="card4 card container-y">
+            <img
+              src="./Assets/icons/icons8-github-256.png"
+              alt=""
+              class="icons-img"
+            />
+            <h2>GitHub Management</h2>
+            <span
+              >Set up and organize GitHub repositories, ensuring effective
+              version control and collaboration.</span
+            >
           </div>
         </div>
       </div>
@@ -139,18 +133,18 @@
 
     <!--? projects start -->
     <section id="projects">
+      <!-- <h1 style="color: #1f2833">.</h1>
       <h1 style="color: #1f2833">.</h1>
-      <h1 style="color: #1f2833">.</h1>
-      <h1 style="color: #1f2833">.</h1>
-      <div class="projects container">
+      <h1 style="color: #1f2833">.</h1> -->
+      <div class="projects-section container">
         <h1 class="section-tittle">RECENT <span>PROJECTS</span></h1>
 
-        <div class="projects-card">
-          <div class="row1 cardp">
-            <div class="row1-content">
-              <!--?---CACLULATOR  -->
-              <h1 class="project-title">Stylish Calculator</h1>
+        <div class="projects-card container-y">
+          <div class="row1 cardp container-x container-wrap">
 
+            <!--?---CACLULATOR  -->
+            <div class="row1-content content container-y">
+              <h1 class="project-title">Stylish Calculator</h1>
               <p>
                 Designed a fully functional calculator with HTML, CSS, and
                 JavaScript. Implemented mathematical functions and a clean
@@ -164,23 +158,21 @@
                 >
               </button>
               <button class="git-btn">
-                <a
-                  href=""
-                  target="_blank"
-                  >GitHub Repo</a>
+                <a href="https://github.com/mhuzaifa360/Self-Task-design-calculator.git" target="_blank">GitHub Repo</a>
               </button>
             </div>
             <div class="row1-img cardp-img">
               <img src="./Assets/images/calculator.png" alt="" />
             </div>
+
           </div>
 
-          <div class="row2 cardp">
+          <div class="row2 cardp container-x container-wrap-reverse">
             <!--?---PRODUCT CATALOG   -->
             <div class="row2-img cardp-img">
               <img src="./Assets/images/product catalog.png" alt="" />
             </div>
-            <div class="row2-content">
+            <div class="row2-content content container-y">
               <h1 class="project-title">Product Catalog Website</h1>
 
               <p>
@@ -196,17 +188,14 @@
                 >
               </button>
               <button class="git-btn">
-                <a
-                  href=""
-                  target="_blank"
-                  >GitHub Repo</a>
+                <a href="https://github.com/mhuzaifa360/task05-html-css-responsive-product-catalogue-website.git" target="_blank">GitHub Repo</a>
               </button>
             </div>
           </div>
-          <div class="row3 cardp">
-            <!--?---PORTFOLIO WEBISTE   -->
-            <div class="row3-content">
-              <h1 class="project-title">PORTFOLIO WEBSITE</h1>
+          <!--?---PORTFOLIO WEBISTE   -->
+          <div class="row3 cardp container-x container-wrap">
+            <div class="row3-content content container-y">
+              <h1 class="project-title">My Portfolio Blue</h1>
               <p>
                 Developed apersonal portfolio website to showcase projects and
                 skills using HTML,CSS,andJavaScript. Focused on UIdesign and
@@ -220,22 +209,20 @@
                 >
               </button>
               <button class="git-btn">
-                <a
-                  href=""
-                  target="_blank"
-                  >GitHub Repo</a>
+                <a href="https://github.com/mhuzaifa360/Portfolio-website.git" target="_blank">GitHub Repo</a>
               </button>
             </div>
             <div class="row3-img cardp-img">
               <img src="./Assets/images/portflio.png" alt="" />
             </div>
           </div>
-          <div class="row4 cardp">
-            <!--?---COFFEE SHOP WEBSITE   -->
+         
+          <!--?---COFFEE SHOP WEBSITE   -->
+          <div class="row4 cardp container-x container-wrap-reverse">
             <div class="row4-img cardp-img">
               <img src="./Assets/images/coffee shop.png" alt="" />
             </div>
-            <div class="row4-content">
+            <div class="row4-content content container-y">
               <h1 class="project-title">Coffee Shop Website</h1>
 
               <p>
@@ -251,44 +238,174 @@
                 >
               </button>
               <button class="git-btn">
-                <a
-                  href=""
-                  target="_blank"
-                  >GitHub Repo</a>
+                <a href="https://github.com/mhuzaifa360/task06-html-css-responsive-COFFEE-SHOP-website.git" target="_blank">GitHub Repo</a>
               </button>
             </div>
           </div>
+          <!--?---PORTFOLIO WEBISTE BLACK AND BLUE  -->
+          <div class="row3 cardp container-x container-wrap">
+            <div class="row3-content content container-y">
+              <h1 class="project-title">My Portfolio Blue and Black</h1>
+              <p>
+                Developed apersonal portfolio website to showcase projects and
+                skills using HTML,CSS,andJavaScript. Focused on UIdesign and
+                responsiveness
+              </p>
+              <button class="project-btn">
+                <a
+                  href="https://mhuzaifa360.github.io/Portfolio-website-black-white-blue/"
+                  target="_blank"
+                  >Live Preview</a
+                >
+              </button>
+              <button class="git-btn">
+                <a href="https://github.com/mhuzaifa360/Portfolio-website-black-white-blue.git" target="_blank">GitHub Repo</a>
+              </button>
+            </div>
+            <div class="row3-img cardp-img">
+              <img src="./Assets/images/my portfolio balck and blue.png" alt="" />
+            </div>
+          </div>
+          <!--?---HS HOTEL WEBSITE   -->
+          <div class="row4 cardp container-x container-wrap-reverse">
+            <div class="row4-img cardp-img">
+              <img src="./Assets/images/hotel website.png" alt="" />
+            </div>
+            <div class="row4-content content container-y">
+              <h1 class="project-title">HS Hotel Website</h1>
+
+              <p>
+                I built a responsive website for a coffee shop,emphasizing
+                design aesthetics and user-friendly navigation with HTML, CSS,
+                and Bootstrap.
+              </p>
+              <button class="project-btn">
+                <a
+                  href="https://mhuzaifa360.github.io/task06-html-css-responsive-COFFEE-SHOP-website/"
+                  target="_blank"
+                  >Live Preview</a
+                >
+              </button>
+              <button class="git-btn">
+                <a href="https://github.com/mhuzaifa360/task06-html-css-responsive-COFFEE-SHOP-website.git" target="_blank">GitHub Repo</a>
+              </button>
+            </div>
+          </div>
+          <!--?---BOOK SELLER WEBSITE  -->
+          <div class="row3 cardp container-x container-wrap">
+            <div class="row3-content content container-y">
+              <h1 class="project-title">Book Seller Website</h1>
+              <p>
+                Developed apersonal portfolio website to showcase projects and
+                skills using HTML,CSS,andJavaScript. Focused on UIdesign and
+                responsiveness
+              </p>
+              <button class="project-btn">
+                <a
+                  href="https://mhuzaifa360.github.io/Portfolio-website/"
+                  target="_blank"
+                  >Live Preview</a
+                >
+              </button>
+              <button class="git-btn">
+                <a href="https://github.com/mhuzaifa360/Portfolio-website-black-white-blue.git" target="_blank">GitHub Repo</a>
+              </button>
+            </div>
+            <div class="row3-img cardp-img">
+              <img src="./Assets/images/book saller website.png" alt="" />
+            </div>
+          </div>
+          <!--?---PORTFOLIO CRIMSON   -->
+          <div class="row4 cardp container-x container-wrap-reverse">
+            <div class="row4-img cardp-img">
+              <img src="./Assets/images/my portfolio crimson.png" alt="" />
+            </div>
+            <div class="row4-content content container-y">
+              <h1 class="project-title">My Portfolio Crimson</h1>
+
+              <p>
+                I built a responsive website for a coffee shop,emphasizing
+                design aesthetics and user-friendly navigation with HTML, CSS,
+                and Bootstrap.
+              </p>
+              <button class="project-btn">
+                <a
+                  href="https://mhuzaifa360.github.io/Portfolio-website-crimson/"
+                  target="_blank"
+                  >Live Preview</a
+                >
+              </button>
+              <button class="git-btn">
+                <a href="https://github.com/mhuzaifa360/Portfolio-website-crimson.git" target="_blank">GitHub Repo</a>
+              </button>
+            </div>
+          </div>
+          <div class="row3 cardp container-x container-wrap">
+            <!--?---PORTFOLIO ORANGE -->
+            <div class="row3-content content container-y">
+              <h1 class="project-title">MY PORTFOLIO ORANGE</h1>
+              <p>
+                Developed apersonal portfolio website to showcase projects and
+                skills using HTML,CSS,andJavaScript. Focused on UIdesign and
+                responsiveness
+              </p>
+              <button class="project-btn">
+                <a
+                  href="https://mhuzaifa360.github.io/task007-complete-portfolio-website/"
+                  target="_blank"
+                  >Live Preview</a
+                >
+              </button>
+              <button class="git-btn">
+                <a href="https://github.com/mhuzaifa360/task007-complete-portfolio-website.git" target="_blank">GitHub Repo</a>
+              </button>
+            </div>
+            <div class="row3-img cardp-img">
+              <img src="./Assets/images/my portfolio orange.png" alt="" />
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
     <!--? projects ends  -->
 
     <!--? commit   ----------------------------->
-    
+
     <!--? about  start -->
     <section id="about">
       <div class="about container">
-        
-        <div class="about-data">
-        
-
+        <div class="about-data container-x">
           <div class="about-img">
-            <img src="./Assets/images/huzaifa pic long.png" alt="" />
-        </div>
-        
-        <div class="about-content">
-          <h1 class="section-tittle">ABOUT <span>ME</span></h1>
-          <h2>Front-End Developer</h2>
-          <p>
-            I'm Muhammad Huzaifa, a Frontend Developer and IT student skilled in HTML, CSS, JavaScript, and Bootstrap. I design responsive, user-friendly web projects, from portfolio sites to interactive applications. I also run a tech-focused YouTube channel, TechByHuzaifa, where I share insights in Urdu. Connect with me to explore my work in web development and tech tutorials!
-          </p>
-          <div class="about-btn">
-            <button id="about-btn">
-              <a href="./Assets/Huzaifa Resume docs.pdf" download="Huzaifa Resume docs.pdf">DOWNLOAD RESUME</a>
-            </button>
+            <img
+              src="./Assets/images/huzaifa pic long.png"
+              alt=""
+              class="huzaifa-pic"
+            />
+          </div>
+
+          <div class="about-content container-y">
+            <h1 class="section-tittle">ABOUT <span>ME</span></h1>
+            <span>FRONT-END DEVELOPER</span>
+            <p>
+              I'm Muhammad Huzaifa, a Frontend Developer and IT student skilled
+              in HTML, CSS, JavaScript, and Bootstrap. I design responsive,
+              user-friendly web projects, from portfolio sites to interactive
+              applications. I also run a tech-focused YouTube channel,
+              TechByHuzaifa, where I share insights in Urdu. Connect with me to
+              explore my work in web development and tech tutorials!
+            </p>
+            <div class="about-btn">
+              <button id="about-btn">
+                <a
+                  href="./Assets/Huzaifa Resume docs.pdf"
+                  download="Huzaifa Resume docs.pdf"
+                  >DOWNLOAD CV</a
+                >
+              </button>
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </section>
     <!--? about  ends  -->
@@ -297,36 +414,47 @@
 
     <!--? contact start -->
     <section id="contact">
-      <div class="contact container">
+      <div class="contact container container-y">
         <h1 class="section-tittle">CONTACT <span>INFO</span></h1>
-        <div class="row1-contact">
-
-          <div class="card1 cardc">
+        <div class="row1-contact container-x">
+          <div class="card1 cardc card container-y ">
             <div class="card-icon">
-              <img src="./Assets/icons/phone icon orrange.png" alt="" />
+              <img
+                src="./Assets/icons/phone icon orrange.png"
+                alt=""
+                class="icons-img"
+              />
             </div>
             <div class="card-content">
-              <h3>Phone</h3>
-              <p>+92312-8352877</p>
+              <h1>Phone</h1>
+              <p>Pak: +92312-8352877</p>
             </div>
           </div>
 
-          <div class="card2 cardc">
+          <div class="card2 cardc card container-y">
             <div class="card-icon">
-              <img src="./Assets/icons/gmail icon orrange.png" alt="" />
+              <img
+                src="./Assets/icons/gmail icon orrange.png"
+                alt=""
+                class="icons-img"
+              />
             </div>
             <div class="card-content">
-              <h3>Email</h3>
+              <h1>Email</h1>
               <p>mhuzaifa3128352877@gmail.com</p>
             </div>
           </div>
 
-          <div class="card3 cardc">
+          <div class="card3 cardc card container-y">
             <div class="card-icon">
-              <img src="./Assets/icons/address icon orrange.png" alt="" />
+              <img
+                src="./Assets/icons/address icon orrange.png"
+                alt=""
+                class="icons-img"
+              />
             </div>
             <div class="card-content">
-              <h3>Address</h3>
+              <h1>Address</h1>
               <p>Permanent: Kernel Sher Killi Swabi</p>
               <p>Temporary: Rahatabad Peshawar</p>
             </div>
@@ -340,32 +468,40 @@
 
     <!--? footer start -->
     <footer id="footer">
-      <div class="footer">
+      <div class="footer container-y">
         <h2 class="section-tittle">
           <span>M</span>UHAMMAD <span>H</span>UZAIFA
         </h2>
         <h3>Your complete web solution</h3>
-        <div class="footer-icons">
-          <a href="https://www.linkedin.com/in/muhammad-huzaifa-0b617125b/" target="_blank">
-             <img src="./Assets/icons/linkedin icon orrange.png" alt="">
+        <div class="footer-icons container-x">
+          <a
+            href="https://www.linkedin.com/in/muhammad-huzaifa-0b617125b/"
+            target="_blank"
+          > 
+            <img src="./Assets/icons/linkedin icon orrange.png" alt="" class="icons-img"/>
           </a>
 
-         <a href="mailto:mhuzaifa3128352877@gmail.com" target="_blank">
-           <img src="./Assets/icons/gmail icon orrange.png" alt="">
-         </a>
+          <a href="mailto:mhuzaifa3128352877@gmail.com" target="_blank">
+            <img src="./Assets/icons/gmail icon orrange.png" class="icons-img" alt="" />
+          </a>
 
-        <a href="https://youtube.com/@techbyhuzaifa360?si=4Qwm-WdwIftJIVl_" target="_blank">
-          <img src="./Assets/icons/youtube icon orrange.png" alt="">
-        </a>
+          <a
+            href="https://youtube.com/@techbyhuzaifa360?si=4Qwm-WdwIftJIVl_"
+            target="_blank"
+          >
+            <img src="./Assets/icons/youtube icon orrange.png" alt="" class="icons-img"/>
+          </a>
 
-        <a href="https://github.com/mhuzaifa360" target="_blank">
-          <img src="./Assets/icons/icons8-github-256.png" alt="">
-        </a>
+          <a href="https://github.com/mhuzaifa360" target="_blank">
+            <img src="./Assets/icons/icons8-github-256.png" alt="" class="icons-img"/>
+          </a>
 
-        <a href="https://www.facebook.com/@mhuzaifa0360/?mibextid=ZbWKwL" target="_blank">
-          <img src="./Assets/icons/facebook icon orrange.png" alt="">
-        </a>
-          
+          <a
+            href="https://www.facebook.com/@mhuzaifa0360/?mibextid=ZbWKwL"
+            target="_blank"
+          >
+            <img src="./Assets/icons/facebook icon orrange.png" alt="" class="icons-img"/>
+          </a>
         </div>
         <p>Copyright © 2024. All rights reserved.</p>
       </div>

@@ -1,202 +1,55 @@
+/* #FF6B01;
+#1F2833; */
+@font-face {
+    font-family: 'font1';
+    src: url(./Assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'font1';
+    scroll-behavior: smooth;
+}
+body{
 
-
-    
-    /*? General design start  */
-    @font-face {
-        font-family: 'font1';
-        src: url(./Assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
-    }
-    html{
-        
-        scroll-behavior: smooth;
-    }
-    body{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'font1';
-        font-size: 10px;
-        background: #1F2833;
-    }
-    a{
-        text-decoration: none;
-        
-    }
-    .container{
-        min-height: 100vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        /* background: #000; */
-    }
-    p{
-        /* color: white; */
-        font-size: 1.4rem;
-        color: black;
-        /* margin-top: 5px; */
-        /* line-height: 40px; */
-    }
-    .section-tittle{
-        font-weight: 500;
-        font-size: 50px;
-        /* font-size: 30px; */
-        /* font-weight: 300; */
-        color: white;
-        text-transform: uppercase;
-        letter-spacing: 0.2rem;
-    }
-    .section-tittle span{
-        color: #FF6B01;
-        
-    }
-    button{
-        display: inline-block;
-        padding: 10px 30px;
-        background: transparent;
-        border: 2px solid #FF6B01;
-        font-size: 2rem;
-        text-transform: uppercase;
-        letter-spacing: 0.1rem;
-        margin-top: 30px;
-        color: white;
-        transition: 0.3s ease background-color,color;
-    }
-    button:hover{
-        color: white;
-        background: #FF6B01;
-    }
-    button a{
-        color: white;
-        
-    }
-    /*? General design end  */
-    /*? commint  */
-
-    
-
-
-/*? navbar design start  */
-.nav-logo{
-    text-align: center;
-    /* background: #000; */
-    width: 50%;
 }
-.nav-logo h1{
-    font-size: 2rem;
-    text-transform: uppercase;
-    color: white;
-    font-weight: 400;
-}
-.nav-logo span{
-    
-    color: #FF6B01; 
-}
-.nav-list{
-    width: 50%;
-    /* color: white; */
-    display: flex;
-    
-}
-.nav-list ul{
-    width: 500px;
-    /* background: white; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    text-decoration: none;
-    font-size: 20px;
-    /* color: white; */
-}
-.nav-list ul li a{
-    color: white;
-}
-
-.nav-list ul li a:hover{
-    color:  #FF6B01;
-}
-#navbar{
-    position: fixed;
-    z-index: 5;
-    left: 0;
-    background: #1F2833;
-    
+.container{
     width: 100%;
-    height: auto;
-}
-.navbar{
-    background: white;
-    color: white;
-    min-height: 8vh;
-    /* background: rgba(30,30,0,0.64); */
-    transition: 03s ease background-color;
+    height: 100vh;
+    background: #1F2833;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
-    /* max-width: 1300px; */
-    /* padding: 0 10px; */
+    flex-wrap: wrap;    
 }
-#navbar .list-small-screen{
-    border: 3px solid white;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    display: inline-block;
+.container-y{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    z-index: 4;
-    cursor: pointer;
-    transform: scale(0.8);
+    flex-direction: column;
 }
-#navbar .list-small-screen::after{
-    content: "";
-    border: 3px solid white;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    animation: list-small-screen 1s ease infinite;
-}
-
-/*? navbar design end  */
-/*? commint  */
-
-/*? hero section design start  */
-.hero-section{
-    color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./Assets/images/girl\ with\ tablet.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-attachment: fixed; */
+.container-x{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
 }
-.hero-content h1{
-    font-size: 50px;
-    font-family: 'font1';
-    font-weight: 500;
-    line-height: 30px;
-
+.container-wrap{
+    display: flex;
+    flex-wrap: wrap;
 }
-.hero-content span{
-    color: #FF6B01;
+.container-wrap-reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
 }
-#huzaifa-pic{
+.huzaifa-pic{
+    margin-top: 60px;
     width: 400px;
-    border-radius: 50%;
-    /* border: 3px solid white; */
-    outline: 7px solid #FF6B01;
-    box-shadow: 1px 1px 20px 15px #FF6B01;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    background: transparent;
+    border: 4px outset #FF6B01;
     animation: borderColorChange 3s infinite linear;
-    background: #1F2833;
-   
-  
 }
 @keyframes borderColorChange {
     0% {
@@ -204,532 +57,179 @@
     }
     33% {
         box-shadow: 1px 1px 20px 15px white;
-        
     }
     66% {
         box-shadow: 1px 1px 20px 15px #1F2833;
-      
     }
     100% {
         box-shadow: 1px 1px 20px 15px #FF6B01;
-     
     }
   }
-
-
-
-/*? hero section design end  */
-/*? commint  ---------------------*/
-
-
-/*! ------------- 1541px and up  ---------------------*/
-@media (min-width: 1541px) {
-    /* Styles for extra large devices */
-    
-#navbar{
-    position: fixed;
-    z-index: 5;
-    left: 0;
-    background: #1F2833;
-    
-    width: 100%;
-    height: auto;
+.icons-img{
+    width: 100px;
 }
-.navbar{
-    background: white;
-    color: white;
-    min-height: 8vh;
-    /* background: rgba(30,30,0,0.64); */
-    transition: 03s ease background-color;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    /* max-width: 1300px; */
-    /* padding: 0 10px; */
+span{
+    color: #FF6B01;
 }
-
-/*? navbar design start  */
-.nav-logo{
-    /* background: #9b6f6f; */
-    text-align: center;
-    /* background: #000; */
-    width: 50%;
-}
-.nav-logo h1{
+.section-tittle{
     font-size: 40px;
-    text-transform: uppercase;
-    color: white;
-    font-weight: 400;
 }
-.nav-logo span{
-    
-    color: #FF6B01; 
-}
-.nav-list{
-    width: 45%;
-    /* color: white; */
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-.nav-list ul{
-    width: 100%;
-    height: 70px;
-    /* background: black; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;
-    text-decoration: none;
-    font-size: 28px;
-    /* color: white; */
-}
-.nav-list ul li a{
-    color: white;
-}
-
-.nav-list ul li a:hover{
-    color:  #FF6B01;
-}
-
-/*? navbar design end  */
-/*? commint  */
-
-/*? hero section design start  */
-.hero-section{
-    color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./Assets/images/girl\ with\ tablet.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-attachment: fixed; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-}
-.hero-content{
-    /* background: #000; */
-    width: 700px;
-    height: 400px;
-}
-.hero-content h1{
-    font-size: 60px;
-    font-family: 'font1';
-    font-weight: 500;
-    line-height: 40px;
-
-}
-.hero-content span{
-    color: #FF6B01;
-}
-.hero-image{
-    /* background: #000; */
-    width: 450px;
-    height: 450px;
-}
-#huzaifa-pic{
-    width: 450px;
-    border-radius: 50%;
-    /* border: 3px solid white; */
-    outline: 7px solid #FF6B01;
-    box-shadow: 1px 1px 20px 15px #FF6B01;
-    animation: borderColorChange 3s infinite linear;
-    background: #1F2833;
-   
-  
-}
-
-
-}
-/*! ------------- 1540px and down  ---------------------*/
-@media (max-width: 1540px) {
-    /* Styles for extra large devices */
-    
-#navbar{
-    position: fixed;
-    z-index: 5;
-    left: 0;
-    background: #1F2833;
-    /* background: #000; */
-    width: 100%;
+.navbar{
     height: 15vh;
-}
-.navbar{
-    background: white;
-    color: white;
-    min-height: 8vh;
-    /* background: rgba(30,30,0,0.64); */
-    transition: 03s ease background-color;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    /* max-width: 1300px; */
-    /* padding: 0 10px; */
-}
-
-/*? navbar design start  */
-.nav-logo{
-    /* background: #9b6f6f; */
-    text-align: center;
-    /* background: #000; */
-    width: 50%;
-}
-.nav-logo h1{
-    font-size: 37px;
-    text-transform: uppercase;
-    color: white;
-    font-weight: 400;
-}
-.nav-logo span{
-    color: #FF6B01; 
-}
-.nav-list{
-    width: 65%;
-    /* color: white; */
-    /* background: #000; */
-    display: flex;
-    justify-content: space-evenly;
-}
-.nav-list ul{
-    width: 100%;
-    height: 70px;
-    /* background: black; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;
-    text-decoration: none;
-    font-size: 28px;
-    /* color: white; */
-}
-.nav-list ul li a{
-    color: white;
-}
-.nav-list ul li a:hover{
-    color:  #FF6B01;
-}
-
-/*? hero section design start  */
-.hero-section{
-    color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./Assets/images/girl\ with\ tablet.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-attachment: fixed; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-}
-.hero-content{
-    /* background: #000; */
-    width: 560px;
-    height: 400px;
-}
-.hero-content h1{
-    font-size: 45px;
-    font-family: 'font1';
-    font-weight: 500;
-    line-height: 40px;
-
-}
-.hero-content span{
-    color: #FF6B01;
-}
-.hero-image{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    /* background: #000; */
-    width: 450px;
-    height: 450px;
-}
-#huzaifa-pic{
-    width: 350px;
-    border-radius: 50%;
-    /* border: 3px solid white; */
-    outline: 7px solid #FF6B01;
-    box-shadow: 1px 1px 20px 15px #FF6B01;
-    animation: borderColorChange 3s infinite linear;
-    background: #1F2833; 
-}
-}
-/*! ------------- 1200px and down  ---------------------*/
-@media (max-width: 1200px) {
-    /* Styles for extra large devices */
-    
-#navbar{
     position: fixed;
-    z-index: 5;
-    left: 0;
-    background: #1F2833;
-    /* background: #000; */
-    width: 100%;
-    height: 14vh;
+    z-index: 3;
 }
-.navbar{
-    background: white;
-    color: white;
-    min-height: 8vh;
-    /* background: rgba(30,30,0,0.64); */
-    transition: 03s ease background-color;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    /* max-width: 1300px; */
-    /* padding: 0 10px; */
+h1{
+    font-size: 35px;
+    color:  white;
+    font-weight: 500;
 }
+h2{
+    font-size: 25px;
+    color:  white;
+    font-weight: 500;
+}
+.services-content{
+    position: relative;
+    top: 40px;
+}
+.services-cards{
 
-/*? navbar design start  */
-.nav-logo{
-    /* background: #9b6f6f; */
+}
+.card{
+    /* background: #000; */
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
     text-align: center;
-    /* background: #000; */
-    width: 50%;
-}
-.nav-logo h1{
-    font-size: 34px;
-    text-transform: uppercase;
-    color: white;
-    font-weight: 400;
-}
-.nav-logo span{
-    color: #FF6B01; 
-}
-.nav-list{
-    width: 65%;
-    /* color: white; */
-    /* background: #000; */
-    display: flex;
-    justify-content: space-evenly;
-}
-.nav-list ul{
-    width: 100%;
-    height: 70px;
-    /* background: black; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;
-    text-decoration: none;
-    font-size: 20px;
-    /* color: white; */
-}
-.nav-list ul li a{
-    color: white;
-}
-.nav-list ul li a:hover{
-    color:  #FF6B01;
-}
-
-/*? hero section design start  */
-.hero-section{
-    color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./Assets/images/girl\ with\ tablet.jpg);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top: 4px solid #FF6B01;
+    border-bottom: 4px solid #FF6B01;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(./Assets/images/services\ money.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
+    box-shadow: 1px 1px 10px 6px #0e0e0e;
 }
-.hero-content{
-    /* background: #000; */
-    width: 480px;
-    height: 400px;
+ul{
+    width: 600px;
 }
-.hero-content h1{
-    font-size: 38px;
-    font-family: 'font1';
-    font-weight: 500;
-    line-height: 40px;
-
+li{
+    list-style-type: none;
 }
-.hero-content span{
+a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;    
+}
+a:hover{
     color: #FF6B01;
 }
-.hero-content button{
-    width: 200px;
+button{
+    width: 250px;
     height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: #1F2833;
+    color:  #FF6B01;
+    border: 4px outset #FF6B01;
 }
-.hero-content button a{
-    font-size: 25px;
+button a{
+    color: #FF6B01;
 }
-.hero-image{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    /* background: #000; */
-    width: 450px;
+button:hover{
+    background: #000;
+}
+footer{
+    /* align-items: center; */
+}
+.hero-content{
+    /* font-size: 40px; */
+    align-items: flex-start;
+    line-height: 80px;
+}
+.hero-content h1{
+    font-size: 50px;
+}
+/**--- projects---- */
+.projects-section .section-tittle{
+    color: white;
+    font-weight: 500;
+}
+.projects-section .section-tittle{
+    position: relative;
+    top: 75px;
+}
+.projects-card{
+    width: 90%;
     height: 450px;
-}
-#huzaifa-pic{
-    width: 320px;
-    border-radius: 50%;
-    /* border: 3px solid white; */
-    outline: 7px solid #FF6B01;
-    box-shadow: 1px 1px 20px 15px #FF6B01;
-    animation: borderColorChange 3s infinite linear;
-    background: #1F2833; 
-}
-}
-/*! ------------- 992px and down  ---------------------*/
-@media (max-width: 992px) {
-    /* Styles for extra large devices */
-    
-#navbar{
-    position: fixed;
-    z-index: 5;
-    left: 0;
-    background: #1F2833;
-    /* background: #000; */
-    width: 100%;
-    height: 10vh;
-}
-.navbar{
+    background: #8d8b8b;
+    overflow: scroll;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
     background: white;
-    color: white;
-    min-height: 8vh;
-    /* background: rgba(30,30,0,0.64); */
-    transition: 03s ease background-color;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    /* max-width: 1300px; */
-    /* padding: 0 10px; */
+    border-top: 6px outset #FF6B01;
+    border-bottom: 6px outset #FF6B01;
 }
-
-/*? navbar design start  */
-.nav-logo{
-    /* background: #9b6f6f; */
+.projects-section p{
+    font-size: 25px;
     text-align: center;
-    /* background: #000; */
-    width: 50%;
-}
-.nav-logo h1{
-    font-size: 30px;
-    text-transform: uppercase;
-    color: white;
-    font-weight: 400;
-}
-.nav-logo span{
-    color: #FF6B01; 
-}
-.nav-list{
-    width: 65%;
-    /* color: white; */
-    /* background: #000; */
-    display: none;
-    justify-content: space-evenly;
+    font-weight: 600;
     
 }
-.nav-list ul{
-    width: 100%;
-    height: 70px;
-    /* background: black; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    /* flex-direction: column; */
-    list-style: none;
-    text-decoration: none;
-    font-size: 20px;
-    /* color: white; */
+.projects-section img{
+    width: 700px;
 }
-.nav-list ul li a{
-    color: white;
+.projects-section h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
 }
-.nav-list ul li a:hover{
-    color:  #FF6B01;
-}
-
-/*? hero section design start  */
-.hero-section{
-    color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(./Assets/images/girl\ with\ tablet.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-attachment: fixed; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.hero-content{
-    padding-left: 30px;
-    margin-top: 120px;
-    /* background: #000; */
-    width: 550px;
-    height: 380px;
-}
-.hero-content h1{
-    font-size: 45px;
-    font-family: 'font1';
-    font-weight: 500;
-    line-height: 40px;
-
-}
-.hero-content span{
+.content{
+    width: 600px;
+    height: 400px;
     color: #FF6B01;
 }
-.hero-content button{
-    width: 200px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/**--- about---- */
+.about-data{
+    width: 80%;
+    height: 450px;
+    justify-content: space-evenly;
 }
-.hero-content button a{
-    font-size: 25px;
+.about-content{
+    width: 500px;
+    height: 400px;
+    align-items: flex-start;
+    line-height: 35px;
 }
-.hero-image{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    /* background: #000; */
-    width: 480px;
-    height: 480px;
+.about-content p{
+    font-size: 18px;
+    color:  white;
+    /* line-height: 35px; */
 }
-#huzaifa-pic{
-    width: 380px;
-    border-radius: 50%;
-    /* border: 3px solid white; */
-    outline: 7px solid #FF6B01;
-    box-shadow: 1px 1px 20px 15px #FF6B01;
-    animation: borderColorChange 3s infinite linear;
-    background: #1F2833; 
+.about-content span{
+    letter-spacing: 10px;
 }
+.row1-contact{
+    width: 80%;
 }
-/** in max-992 nav list is disabled  */
-
-/** 992px done  */
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media (max-width: 768px) {
-    
+/**--- contact---- */
+.cardc{
+    color: white;
+    /* background: #484747; */
+    font-size: 20px;
+    width: 400px;
+    height: 300px;
+    line-height: 40px;
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media (max-width: 600px) {
-    
+/**---footer---- */
+footer{
+    background: #0e0e0e;
+    border-top: 5px solid #FF6B01;
+    color:  white;
 }
-
-/* Extra small devices (phones, 600px and down) */
-@media (max-width: 400px) {
-    
+footer .icons-img{
+    width: 60px;
 }
-
-
